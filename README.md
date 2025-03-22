@@ -1,7 +1,7 @@
-# 🚀 Workflow and Tech Stack - Resicue.com
+# 🚀 Workflow and Tech Stack - Domus.club
 
 ## 🌐 Domain
-**resicue.com** – Management platform for residences and commercial spaces.
+**domus.club** – Management platform for residences and commercial spaces.
 
 ---
 
@@ -38,23 +38,26 @@
 Each microservice has its own dedicated repository:
 
 ```
-resicue-auth-service
-resicue-user-service
-resicue-access-control-service
-resicue-visit-history-service
-resicue-alert-service
-resicue-communication-service
-resicue-survey-service
-resicue-ownership-service
-resicue-reservation-service
-resicue-finance-service
-resicue-delinquency-tracker
-resicue-financial-reports
-resicue-support-ticketing
-resicue-support-chat
-resicue-knowledge-base
-resicue-api-gateway
-resicue-mobile-app (Expo)
+domus-backend-auth-service
+domus-backend-user-service
+domus-backend-access-control-service
+domus-backend-visit-history-service
+domus-backend-alert-service
+domus-backend-communication-service
+domus-backend-survey-service
+domus-backend-ownership-service
+domus-backend-reservation-service
+domus-backend-finance-service
+domus-backend-delinquency-tracker
+domus-backend-financial-reports
+domus-backend-support-ticketing
+domus-backend-support-chat
+domus-backend-knowledge-base
+domus-backend-api-gateway
+domus-frontend-mobile-app (Expo)
+domus-docker
+domus-database
+domus-infra
 ```
 
 ---
@@ -123,8 +126,8 @@ gitGraph
 ```
 
 **Environments:**
-- **test.resicue.com** (Staging environment).
-- **resicue.com** (Production).
+- **test.domus.club** (Staging environment).
+- **domus.club** (Production).
 
 **Best practices:**
 - `release/test` is auto-deployed to the test environment.
@@ -137,8 +140,8 @@ gitGraph
 
 | Type               | Convention                        | Example                              |
 |--------------------|------------------------------------|--------------------------------------|
-| Repository         | `resicue-<service-name>`           | `resicue-alert-service`              |
-| Docker Image       | `resicue/<service>:<build>`        | `resicue/user-service:101`           |
-| Jenkins Pipeline   | `CI-<service-name>`                | `CI-resicue-user-service`            |
-| Staging Domain     | `test.resicue.com`                 | `test-api.resicue.com`               |
-| Production Domain  | `resicue.com`                      | `api.resicue.com`                    |
+| Repository         | `domus-backend-<service-name>`           | `domus-backend-alert-service`              |
+| Docker Image       | `domus/<service>:<build>`        | `domus/user-service:101`           |
+| Jenkins Pipeline   | `CI-<service-name>`                | `CI-domus-backend-user-service`            |
+| Staging Domain     | `test.domus.club`                 | `test-api.domus.club`               |
+| Production Domain  | `domus.club`                      | `api.domus.club`                    |
