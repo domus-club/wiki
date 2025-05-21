@@ -7,7 +7,7 @@
 | domus-backend-user-onboarding-4002        | 4002:4002      |
 | domus-backend-chats-4005                  | 4005:4005      |
 | domus-backend-residential-onboarding-4006 | 4006:4006      |
-| domus-backend-houses-4009                 | 4008:4008      |
+| domus-backend-houses-4008                 | 4008:4008      |
 | domus-backend-residentials-4009           | 4009:4009      |
 | domus-backend-config-server-4400          | 4400:4400      |
 
