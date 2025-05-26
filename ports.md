@@ -11,8 +11,8 @@
 | domus-backend-residential-onboarding-4006 | 4006:4006      |
 | domus-backend-houses-4008                 | 4008:4008      |
 | domus-backend-residentials-4009           | 4009:4009      |
+| domus-backend-access-control-4010         | 4010:4010      |
 | domus-backend-config-server-4400          | 4400:4400      |
-
 ---
 
 # All Services
