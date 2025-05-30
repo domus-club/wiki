@@ -7,6 +7,8 @@
 | domus-backend-load-balancer-4000          | 4000:4000      |
 | domus-backend-kafka-proxy-4001            | 4001:4001      |
 | domus-backend-user-onboarding-4002        | 4002:4002      |
+| domus-backend-notitfication-4003          | 4003:4003      |
+| domus-backend-users-4004                  | 4004:4003      |
 | domus-backend-chats-4005                  | 4005:4005      |
 | domus-backend-residential-onboarding-4006 | 4006:4006      |
 | domus-backend-houses-4008                 | 4008:4008      |
