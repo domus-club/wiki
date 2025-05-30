@@ -2,26 +2,27 @@
 
 ## [Docker](https://docker.domus.club/)
 
-| Services                                  | Port |
-| ----------------------------------------- | -------------- |
-| domus-backend-load-balancer-4000          | 4000:4000      |
-| domus-backend-kafka-proxy-4001            | 4001:4001      |
-| domus-backend-user-onboarding-4002        | 4002:4002      |
-| domus-backend-notitfication-4003          | 4003:4003      |
-| domus-backend-users-4004                  | 4004:4003      |
-| domus-backend-chats-4005                  | 4005:4005      |
-| domus-backend-residential-onboarding-4006 | 4006:4006      |
-| $\color{red}{MISSING}$                    | $\color{red}{4007:4007}$      |
-| domus-backend-houses-4008                 | 4008:4008      |
-| domus-backend-residentials-4009           | 4009:4009      |
-| domus-backend-access-control-4010         | 4010:4010      |
-| domus-backend-config-server-4400          | 4400:4400      |
+| Services                                  | Port                     |
+|-------------------------------------------|--------------------------|
+| domus-backend-load-balancer-4000          | 4000:4000                |
+| domus-backend-kafka-proxy-4001            | 4001:4001                |
+| domus-backend-user-onboarding-4002        | 4002:4002                |
+| domus-backend-notitfication-4003          | 4003:4003                |
+| domus-backend-users-4004                  | 4004:4003                |
+| domus-backend-chats-4005                  | 4005:4005                |
+| domus-backend-residential-onboarding-4006 | 4006:4006                |
+| $\color{red}{MISSING}$                    | $\color{red}{4007:4007}$ |
+| domus-backend-houses-4008                 | 4008:4008                |
+| domus-backend-residentials-4009           | 4009:4009                |
+| domus-backend-access-control-4010         | 4010:4010                |
+| domus-backend-config-server-4400          | 4400:4400                |
+
 ---
 
 # All Services
 
-| Services                          | Port               |
-| --------------------------------- | ------------------------------- |
+| Services                          | Port                            |
+|-----------------------------------|---------------------------------|
 | domus-docker-jenkins-1            | 50000:50000, 8080:8080          |
 | mailcowdockerized-mysql-mailcow   | 13306:3306                      |
 | domus-docker-prometheus-1         | 9090:9090                       |
