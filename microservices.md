@@ -29,6 +29,7 @@ flowchart TB
         KP --> RO[Residential Onboarding<br>Puerto 4006]
         KP --> HOU[Houses<br>Puerto 4008]
         KP --> AC[Access Control<br>Puerto 4010]
+        KP --> GU[GUARD CONTROL<br>Puerto 4011]
     end
 
     subgraph "Infraestructura"
